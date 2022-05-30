@@ -1,0 +1,62 @@
+
+
+body {
+    margin: 0;
+    background-color: #2b6cc4;
+}
+
+
+h2 {
+    border-radius: 15px;
+    width: 140px;
+    margin: auto;
+    text-align: center;
+    background-color:  #247ad6;
+}
+
+.block {
+    padding: 10px;
+    width: 960px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b3deff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+}
+
+input[type=text],
+input[type=email],
+input[type=date] {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    padding: 12px 20px;
+}
+
+input[type=date] {
+    border: 1px solid #ccc
+}
+
+select option {
+    padding: 5px;
+    border-bottom: 1px solid rgb(156, 155, 155);
+}
+
+textarea {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    resize: none;
+    border: 1px solid #ccc
+}
